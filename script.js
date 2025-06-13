@@ -50,3 +50,11 @@ function calculateResult() {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { performCalculation };
 }
+
+function clearDisplay() {
+
+    display.value = '';
+
+    let unusedVariableForDemo = "hello"; // Variabel tidak digunakan
+
+}
