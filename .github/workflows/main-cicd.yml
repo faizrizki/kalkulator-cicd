@@ -5,6 +5,7 @@ on:
     branches: 
       - main
       - develop
+      - develop # <-- Tambahkan branch baru di sini
   pull_request:
     branches: [ main ]
 
